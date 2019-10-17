@@ -1,0 +1,6 @@
+curl -s https://slack.com/api/users.list -H "Content-Type: application/x-www-form-urlencoded" -d "token=xoxp-TOKEN"
+
+curl -u username:token https://api.github.com/orgs/ORGNAME/teams -H "Accept: application/vnd.github.hellcat-preview+json"
+curl -u username:token https://api.github.com/teams/TEAMID -H "Accept: application/vnd.github.hellcat-preview+json"
+curl -u username:token https://api.github.com/teams/TEAMID/memberships/USERNAME -H "Accept: application/vnd.github.hellcat-preview+json"
+curl -u username:token --request PUT https://api.github.com/teams/TEAMID/memberships/USERNAME -d "role=member" -H "Accept: application/vnd.github.hellcat-preview+json"

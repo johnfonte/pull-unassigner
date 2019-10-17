@@ -1,0 +1,10 @@
+slack_token = xoxp-
+github_org = org
+github_team_id = 1234
+github_team_name = team
+github_maintainer = username
+github_token = 134134api
+cron.expression = 0 0/1 * 1/1 * ? *
+server.port=8181
+users.example_1 = example1
+users.example2 = test
